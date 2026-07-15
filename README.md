@@ -1,4 +1,4 @@
-# Comic scanlation
+# Comics scanlation
 
 There are two ways to work with this repository — both built for iterative, agentic use. The first is fully agentic; the second combines web interaction with agentic capabilities. Both allow you to be productive and perform at your best with increased agentic usage.
 
