@@ -13,7 +13,7 @@ This file is the agent's rulebook. For a human-readable description of the repos
 
 - Don't guess. Ask immediately if you have any questions.
 - Do not override existing files on rename. Confirm with the user before any delete or overwrite of an existing file.
-- Write only to `translated` or the system temp folder.
+- Write permission is granted only to `translated/` and the system temp folder. Ask before writing elsewhere.
 - Never use `…`. Write it as `...`.
 
 ### Python usage
