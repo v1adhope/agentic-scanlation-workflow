@@ -36,8 +36,8 @@ This file is the agent's rulebook. For a human-readable description of the repos
 #### Table format
 
 - If it's a background SFX outside a bubble, it lives only in the SFX summary table at the end of the file.
-- One text container (speech bubble, narration box, caption, sign, thought bubble) = one entry with one [pXX.YYY] id. Never merge two containers, never split one container across entries.
-- Use 3-digit, zero-padded ids: entries after the page (`p01.001`, `p01.002`, ...) and SFX with no page separator (`sfx001`, `sfx002`, ...).
+- One text container (speech bubble, narration box, caption, sign, thought bubble) = one entry with one [pXXX.YYY] id. Never merge two containers, never split one container across entries.
+- Use 3-digit, zero-padded ids: entries after the page (`p001.001`, `p001.002`, ...) and SFX with no page separator (`sfx001`, `sfx002`, ...).
 - Duplicate the entry if the same text appears in more than one container (e.g. two characters both saying `ハァ`).
 - If asked for translation, include 3 options.
 - Translate into English only unless instructed otherwise.

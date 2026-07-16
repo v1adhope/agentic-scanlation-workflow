@@ -23,23 +23,23 @@ page_entries: <count>
 
 ---
 
-## p01
+## p001
 
-- [p01.001] `速い...`
+- [p001.001] `速い...`
 
   - Option 1(en): "So fast..."
   - Option 2(en): "They're fast..."
   - Option 3(en): "They're so quick..."
 
-- [p01.002] `美しい`
+- [p001.002] `美しい`
 
   - Option 1(en): "Beautiful"
   - Option 2(en): "Gorgeous"
   - Option 3(en): "So graceful"
 
-- [p01.003] see sfx001
+- [p001.003] see sfx001
 
-- [p01.004] `もう 50M`
+- [p001.004] `もう 50M`
 
   - Option 1(en): "They're already at 50 meters"
   - Option 2(en): "Already at 50M"
