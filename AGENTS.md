@@ -16,9 +16,11 @@ This file is the agent's rulebook. For a human-readable description of the repos
 - Write permission is granted only to `translated/` and the system temp folder. Ask before writing elsewhere.
 - Never use `…`. Write it as `...`.
 
-### Python usage
+### Python scripts
 
-- Use `source .venv/bin/activate` to execute Python scripts in isolation. If you don't have a venv, create one with `uv venv --python 3.12`.
+- If you don't have a venv, create one with `uv venv --python 3.12`.
+- Use `source .venv/bin/activate` to execute Python scripts in isolation.
+- Use `uv pip install <package_name>` to install packages.
 
 ### Translation scripts (`translated/<ch>/script.md`)
 
@@ -32,6 +34,7 @@ This file is the agent's rulebook. For a human-readable description of the repos
 - Use only manga/comics specific OCR.
 - Don't modify text, give as it is. Insist on verbatim(don't "clean up" punctuation, dakuten, small kana, furigana).
 - Manga reads right-to-left, top-to-bottom. For panels side-by-side, the right panel's content comes first.
+- When source text carries a reading annotation on kanji (furigana, ruby text, or an inline gloss) extract it as `text (reading)`.
 
 #### Table format
 
@@ -50,3 +53,17 @@ This file is the agent's rulebook. For a human-readable description of the repos
 #### Status
 
 - The YAML front matter `status` field declares the script's stage. Allowed values: `open` (in progress, editable) and `closed` (finished, locked from edits). If missing or undefined, treat as `open`.
+
+#### Edits and changes
+
+- Change entries must preserve strict, gapless, non-duplicated numeration, and the reported entry count must always equal the actual number of items.
+
+#### Review
+
+- Flag any line where meaning shifts from source (not just literal mismatches — tone shifts count too, e.g. sarcastic → sincere).
+- Track each character's speech register (formal/casual, verbal tics, catchphrases) so voice doesn't drift page to page.
+- Cross-check callbacks/running jokes against earlier chapters if the source calls back to them.
+- Flag lines that are grammatically correct but no native speaker would actually say.
+- Punctuation/typography conventions (ellipses, emphasis, trailing off) should match genre norms, not get auto-"corrected" to standard English prose rules.
+- Chunk review by page or scene, not isolated line-by-line — a lot of translation review errors come from losing panel context.
+- Only one final picked translation option might should exist for each particular language.

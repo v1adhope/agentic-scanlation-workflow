@@ -2,6 +2,10 @@
 
 There are two ways to work with this repository — both built for iterative, agentic use. The first is fully agentic; the second combines web interaction with agentic capabilities. Both allow you to be productive and perform at your best with increased agentic usage.
 
+## Where to read
+
+- [MangaDex](https://mangadex.org/#link_for_your_title_here)
+
 ## Workflow
 
 `raws/` → `translated/` → `precleaned/` → `cleaned/` → `released/`
@@ -15,6 +19,20 @@ There are two ways to work with this repository — both built for iterative, ag
 | `released/` | Final exported PNGs, ready to publish. |
 | `assets/` | Supporting material such as cover art, end-page credits, image metadata, and import sheets used during editing. |
 | `docs/` | Reference docs and templates that drive the agent workflow. |
+
+## Metrics
+
+Per-chapter upload metrics recorded after each release.
+
+| Chapter | Rating | Follows | Comments | Day | Upload timestamp |
+| ------- | ------ | ------- | -------- | --- | --------------------- |
+| ch1 | 8.4 | 37 | 6 | Wed | 2026-04-08T11:22:00+00:00 |
+| ch2 | 8.6 | 483 | 11 | Fri | 2026-04-17T02:07:00+00:00 |
+| ch3 | 8.2 | 1271 | 20 | Wed | 2026-04-22T19:56:00+00:00 |
+| ch4 | 8.8 | 1701 | 29 | Wed | 2026-04-29T13:36:00+00:00 |
+| ch5 | 8.5 | 2489 | 31 | Wed | 2026-05-06T11:44:00+00:00 |
+| ch6 | 8.7 | 3063 | 44 | Mon | 2026-05-11T05:24:00+00:00 |
+| ch7 | 8.9 | 3495 | 54 | Tue | 2026-05-19T11:46:00+00:00 |
 
 ## Observations
 

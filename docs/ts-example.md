@@ -8,20 +8,20 @@ ______________________________________________________________________
 
 ## Example template
 
-```markdown
----
+````markdown
+# <ch> - <chapter_name_if_exists>
+
+```yaml
 status: <status>
 pages: <count>
 page_entries: <count>
----
-
-# <ch> - <chapter_name_if_exists>
+```
 
 ## Summary
 
 <summary>
 
----
+______________________________________________________________________
 
 ## p001
 
@@ -45,9 +45,19 @@ page_entries: <count>
   - Option 2(en): "Already at 50M"
   - Option 3(en): "They're already at the 50M mark"
 
+- [p001.005] `ぐわっ`
+
+  - Option 1(en): "Gwah!"
+  - Option 2(en): "Grr!"
+  - Option 3(en): "Graa!"
+
+## p002
+
+<!-- No text detected -->
+
 ## SFX summary
 
 | id        | source   | tl     |
 |-----------|----------|--------|
 | sfx001   | ガバッ   | SPLASH |
-```
+````
