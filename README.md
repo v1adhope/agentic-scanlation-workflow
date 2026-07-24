@@ -19,6 +19,7 @@ There are two ways to work with this repository — both built for iterative, ag
 | `released/` | Final exported PNGs, ready to publish. |
 | `assets/` | Supporting material such as cover art, end-page credits, image metadata, and import sheets used during editing. |
 | `docs/` | Reference docs and templates that drive the agent workflow. |
+| `untracked/` | Folder exists in the repo, but its contents are git-ignored — a local-only working area. |
 
 ## Metrics
 
