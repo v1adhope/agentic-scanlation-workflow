@@ -18,9 +18,10 @@ This file is the agent's rulebook. For a human-readable description of the repos
 
 ### Python scripts
 
+- Use `uv` for full execution cycle.
 - If you don't have a venv, create one with `uv venv --python 3.12`.
-- Use `source .venv/bin/activate` to execute Python scripts in isolation.
 - Use `uv pip install <package_name>` to install packages.
+- Use `uv run <script>` to execute Python scripts in isolation.
 
 ### Translation scripts (`translated/<ch>/script.md`)
 
@@ -36,9 +37,10 @@ This file is the agent's rulebook. For a human-readable description of the repos
 - Manga reads right-to-left, top-to-bottom. For panels side-by-side, the right panel's content comes first.
 - When source text carries a reading annotation on kanji (furigana, ruby text, or an inline gloss) extract it as `text (reading)`.
 
-#### Table format
+#### Script format
 
 - If it's a background SFX outside a bubble, it lives only in the SFX summary table at the end of the file.
+- Omit SFX table if background SFX not present.
 - One text container (speech bubble, narration box, caption, sign, thought bubble) = one entry with one [pXXX.YYY] id. Never merge two containers, never split one container across entries.
 - Use 3-digit, zero-padded ids: entries after the page (`p001.001`, `p001.002`, ...) and SFX with no page separator (`sfx001`, `sfx002`, ...).
 - Duplicate the entry if the same text appears in more than one container (e.g. two characters both saying `ハァ`).
@@ -49,6 +51,7 @@ This file is the agent's rulebook. For a human-readable description of the repos
 
 - Fill template placeholders (`<ch>`, `<summary>`, `<...>`) from the chapter's raws. If raws are unavailable, stop and ask the user.
 - Follow template format.
+- Don't reorder entries.
 
 #### Status
 

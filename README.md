@@ -17,7 +17,7 @@ There are two ways to work with this repository — both built for iterative, ag
 | `precleaned/` | AI-cleaned copies of the raws with compression artifacts, banding, and moiré fixed up so the images are easier to work with. |
 | `cleaned/` | Hands-on editing of the precleaned pages in an image editor such as Photoshop, GIMP, or Krita, with redraw, retouch, and typeset of the translated text. |
 | `released/` | Final exported PNGs, ready to publish. |
-| `assets/` | Supporting material such as cover art, end-page credits, image metadata, and import sheets used during editing. |
+| `assets/` | Supporting material such as cover art, end-page credits, image metadata, fonts, and import sheets used during editing. |
 | `docs/` | Reference docs and templates that drive the agent workflow. |
 | `untracked/` | Folder exists in the repo, but its contents are git-ignored — a local-only working area. |
 
